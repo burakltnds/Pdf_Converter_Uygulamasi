@@ -1,0 +1,7 @@
+[build]
+  command = "flutter build web"
+  publish = "android_kismi/build/web"
+  base = "android_kismi"
+
+[build.environment]
+  FLUTTER_VERSION = "3.29.3"
