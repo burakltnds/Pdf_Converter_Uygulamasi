@@ -16,9 +16,7 @@ class AnaSayfa extends StatefulWidget {
 }
 
 class _AnaSayfaState extends State<AnaSayfa> {
-  final String backendUrl =
-      kIsWeb ?  "http://localhost:5000/convert"
-      :"http://10.29.175.196:5000/convert";
+  final String backendUrl = "https://pdf-kutter.onrender.com/convert" ;
 
   String _mesaj = "PDF dosyanızı Seçiniz" ;
   bool _isLoading = false ;
